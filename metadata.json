@@ -1,0 +1,8 @@
+{
+  "name": "Copy of Cổng Thông Tin Đơn Vị Quân Đội",
+  "description": "Một blog cá nhân mang phong cách chuyên nghiệp của đơn vị quân đội, bao gồm các chuyên mục: Lịch sử truyền thống, Hoạt động đơn vị, Chuyên trang kết nghĩa, Phổ biến pháp luật và Góc lính trẻ.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
