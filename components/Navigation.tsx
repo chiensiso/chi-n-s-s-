@@ -4,12 +4,11 @@ import { Category } from '../types';
 
 interface NavigationProps {
   activeCategory: Category;
+  categories: Category[];
   onCategoryChange: (category: Category) => void;
 }
 
-const Navigation: React.FC<NavigationProps> = ({ activeCategory, onCategoryChange }) => {
-  const categories = Object.values(Category);
-
+const Navigation: React.FC<NavigationProps> = ({ activeCategory, categories, onCategoryChange }) => {
   return (
     <nav className="bg-[#2d4a22] text-white sticky top-0 z-50 shadow-lg">
       <div className="max-w-7xl mx-auto px-4">
